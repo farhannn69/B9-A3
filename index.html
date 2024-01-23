@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B9-A3</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                        'custom-orange': '#FF4240',
+                        'custom-main': '#424247'
+                    },
+                },
+            },
+        };
+    </script>
+    <script src="https://kit.fontawesome.com/07e1db3e7a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font">
+    <header class="header container mx-auto md:px-24 px-5 py-5">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base font-normal">
+                        <li><a
+                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Home</a>
+                        </li>
+                        <li><a
+                                class="text-custom-main hover:text-custom-orange hover:bg-transparent ">About</a>
+                        </li>
+                        <li><a
+                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Pages</a>
+                        </li>
+                        <li><a
+                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Blog</a>
+                        </li>
+                        <li><a
+                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="lg:text-4xl md:text-3xl text-2xl font-extrabold">Hockey<span
+                        class="text-custom-orange m-0 p-0 space-0">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 space-x-10 text-base font-normal">
+                    <li><a
+                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Home</a>
+                    </li>
+                    <li><a
+                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">About</a>
+                    </li>
+                    <li><a
+                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Pages</a>
+                    </li>
+                    <li><a
+                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Blog</a>
+                    </li>
+                    <li><a
+                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-end space-x-3 md:space-x-5 lg:space-x-6">
+                <i class="fa-solid fa-magnifying-glass hidden lg:block cursor-pointer opacity-75"></i>
+                <a
+                    class="btn hover:bg-red-600 duration-500 bg-custom-orange md:py-4 md:px-6 py-2 px-4 text-white font-bold">
+                    Get Ticket
+                </a>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
