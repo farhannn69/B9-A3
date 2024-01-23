@@ -34,6 +34,7 @@
 </head>
 
 <body class="font">
+    <!-- Navbar-->
     <header class="header container mx-auto md:px-24 px-5 py-5">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -47,20 +48,15 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base font-normal">
-                        <li><a
-                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Home</a>
+                        <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Home</a>
                         </li>
-                        <li><a
-                                class="text-custom-main hover:text-custom-orange hover:bg-transparent ">About</a>
+                        <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent ">About</a>
                         </li>
-                        <li><a
-                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Pages</a>
+                        <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Pages</a>
                         </li>
-                        <li><a
-                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Blog</a>
+                        <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Blog</a>
                         </li>
-                        <li><a
-                                class="text-custom-main hover:text-custom-orange hover:bg-transparent">Contact</a>
+                        <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -69,20 +65,15 @@
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 space-x-10 text-base font-normal">
-                    <li><a
-                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Home</a>
+                    <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Home</a>
                     </li>
-                    <li><a
-                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">About</a>
+                    <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">About</a>
                     </li>
-                    <li><a
-                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Pages</a>
+                    <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Pages</a>
                     </li>
-                    <li><a
-                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Blog</a>
+                    <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Blog</a>
                     </li>
-                    <li><a
-                            class="text-custom-main hover:text-custom-orange hover:bg-transparent">Contact</a>
+                    <li><a class="text-custom-main hover:text-custom-orange hover:bg-transparent">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +86,91 @@
             </div>
         </div>
     </header>
-
+    <main>
+        <!-- Slider -->
+        <section class="banner container mx-auto md:px-24 px-5">
+            <div class="carousel lg:h-[60vh] md:h-[60vh] h-[30vh] w-full rounded-2xl">
+                <!-- slider 1  -->
+                <div id="slide1" class="carousel-item w-full relative">
+                    <img src="images/1.png" class="w-full object-cover" />
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:translate-x-0 bottom-0 md:left-5 gap-3">
+                        <a href="#slide4"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❮</a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❯</a>
+                    </div>
+                    <div
+                        class="text-white hidden lg:block bg-[#131318] absolute lg:bottom-8 lg:right-8 bottom-0 lg:translate-y-0 translate-y-44 md:p-8 p-5 lg:w-5/12 rounded-2xl space-y-5">
+                        <h3 class="md:text-2xl text-lg font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF99] md:text-lg text-sm font-medium">Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Reprehenderit nulla autem nobis ex eius magni.</p>
+                    </div>
+                </div>
+                <!-- slider 2  -->
+                <div id="slide2" class="carousel-item w-full relative">
+                    <img src="images/2.png" class="w-full object-cover" />
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:translate-x-0 bottom-0 md:left-5 gap-3">
+                        <a href="#slide1"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❮</a>
+                        <a href="#slide3"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❯</a>
+                    </div>
+                    <div
+                        class="text-white hidden lg:block bg-[#131318] absolute lg:bottom-8 lg:right-8 bottom-0 lg:translate-y-0 translate-y-44 md:p-8 p-5 lg:w-5/12 rounded-2xl space-y-5">
+                        <h3 class="md:text-2xl text-lg font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF99] md:text-lg text-sm font-medium">Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Reprehenderit nulla autem nobis ex eius magni.</p>
+                    </div>
+                </div>
+                <!-- slider 3  -->
+                <div id="slide3" class="carousel-item w-full relative">
+                    <img src="images/3.png" class="w-full object-cover" />
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:translate-x-0 bottom-0 md:left-5 gap-3">
+                        <a href="#slide2"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❮</a>
+                        <a href="#slide4"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❯</a>
+                    </div>
+                    <div
+                        class="text-white hidden lg:block bg-[#131318] absolute lg:bottom-8 lg:right-8 bottom-0 lg:translate-y-0 translate-y-44 md:p-8 p-5 lg:w-5/12 rounded-2xl space-y-5">
+                        <h3 class="md:text-2xl text-lg font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF99] md:text-lg text-sm font-medium">Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Reprehenderit nulla autem nobis ex eius magni.</p>
+                    </div>
+                </div>
+                <!-- slider 4  -->
+                <div id="slide4" class="carousel-item w-full relative">
+                    <img src="images/4.png" class="w-full object-cover" />
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-1/2 -translate-x-1/2 md:translate-x-0 bottom-0 md:left-5 gap-3">
+                        <a href="#slide3"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-[#131318] hover:bg-[#131318] text-white border-0 w-12 h-12">❯</a>
+                    </div>
+                    <div
+                        class="text-white hidden lg:block bg-[#131318] absolute lg:bottom-8 lg:right-8 bottom-0 lg:translate-y-0 translate-y-44 md:p-8 p-5 lg:w-5/12 rounded-2xl space-y-5">
+                        <h3 class="md:text-2xl text-lg font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF99] md:text-lg text-sm font-medium">Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Reprehenderit nulla autem nobis ex eius magni.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white block lg:hidden bg-[#131318] md:p-8 p-5 lg:w-1/2 rounded-2xl space-y-2 mt-2">
+                <h3 class="md:text-xl text-lg font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-[#FFFFFF99] md:text-lg text-sm">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Reprehenderit nulla autem nobis ex eius magni.
+                </p>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
